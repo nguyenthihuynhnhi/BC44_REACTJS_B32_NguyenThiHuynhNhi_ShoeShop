@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 export default class ItemShoe extends Component {
   render() {
-    const { shoe, handleChangeDetail } = this.props;
+    const { shoe, handleChangeDetail, handleAddToCart } = this.props;
     return (
       <div className="col-4 ">
         <div
@@ -23,7 +23,7 @@ export default class ItemShoe extends Component {
             >
               Xem chi tiết
             </button>
-            <button className="btn btn-secondary">Mua</button>
+            <button className="btn btn-secondary" onClick={() => { handleAddToCart(shoe) }}>Mua</button>
           </div>
         </div>
       </div>

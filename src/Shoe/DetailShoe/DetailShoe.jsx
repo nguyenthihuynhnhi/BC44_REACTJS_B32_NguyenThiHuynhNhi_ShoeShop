@@ -5,31 +5,31 @@ export default class DetailShoe extends Component {
     const { detail, handleChangeChiTiet } = this.props;
 
     return (
-      <div>
+      <div className="border rounded-4 p-3">
         <h2>Thông tin chi tiết</h2>
         <div>
           <div>
-            <span>Tên: </span>
+            <span className="fw-bold">Tên: </span>
             <span>{detail.name}</span>
           </div>
           <div>
-            <span>Gía: </span>
+            <span className="fw-bold">Giá: </span>
             <span>{detail.price}</span>
           </div>
           <div>
-            <span>Mô tả</span>
+            <span className="fw-bold">Mô tả</span>
             <span>{detail.description}</span>
           </div>
           <div>
-            <span>Mô tả ngắn</span>
+            <span className="fw-bold">Mô tả ngắn</span>
             <span>{detail.shortDescription}</span>
           </div>
           <div>
-            <span>Số Lượng</span>
+            <span className="fw-bold">Số Lượng</span>
             <span>{detail.quantity}</span>
           </div>
           <div>
-            <p className="text-center">Hình ảnh</p>
+            <p className="text-center fw-bold">Hình ảnh</p>
             <div style={{ width: "50%" }} className="mx-auto">
               <img
                 style={{ width: "100%" }}
