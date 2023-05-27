@@ -17,15 +17,15 @@ export default class DetailShoe extends Component {
             <span>{detail.price}</span>
           </div>
           <div>
-            <span className="fw-bold">Mô tả</span>
+            <span className="fw-bold">Mô tả: </span>
             <span>{detail.description}</span>
           </div>
           <div>
-            <span className="fw-bold">Mô tả ngắn</span>
+            <span className="fw-bold">Mô tả ngắn: </span>
             <span>{detail.shortDescription}</span>
           </div>
           <div>
-            <span className="fw-bold">Số Lượng</span>
+            <span className="fw-bold">Số Lượng: </span>
             <span>{detail.quantity}</span>
           </div>
           <div>
