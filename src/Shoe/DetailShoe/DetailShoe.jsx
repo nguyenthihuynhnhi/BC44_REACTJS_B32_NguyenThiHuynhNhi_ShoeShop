@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 export default class DetailShoe extends Component {
   render() {
-    const { detail, handleChangeChiTiet } = this.props;
+    const { detail } = this.props;
 
     return (
       <div className="border rounded-4 p-3">
